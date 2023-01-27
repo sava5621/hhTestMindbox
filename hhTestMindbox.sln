@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hhTestMindbox", "hhTestMindbox\hhTestMindbox.csproj", "{5781D741-C1ED-4C4F-AC67-65DA8533D814}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hhTestMindbox", "hhTestMindbox\hhTestMindbox.csproj", "{5781D741-C1ED-4C4F-AC67-65DA8533D814}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hhTestMindboxTesting", "hhTestMindboxTesting\hhTestMindboxTesting.csproj", "{BB69A052-0095-4274-B59F-484C7C5A26B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hhTestMindboxTesting", "hhTestMindboxTesting\hhTestMindboxTesting.csproj", "{BB69A052-0095-4274-B59F-484C7C5A26B2}"
 	ProjectSection(ProjectDependencies) = postProject
 		{5781D741-C1ED-4C4F-AC67-65DA8533D814} = {5781D741-C1ED-4C4F-AC67-65DA8533D814}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{EA30E88C-EA13-4717-9E77-130906AA616A}"
+	ProjectSection(SolutionItems) = preProject
+		TestSQL.sql = TestSQL.sql
 	EndProjectSection
 EndProject
 Global
